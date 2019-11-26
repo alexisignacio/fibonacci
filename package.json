@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai-arrays": "^2.0.0",
+    "express": "3.4.7",
+    "moch": "0.0.1",
+    "nodemon": "^2.0.1",
+    "chai": "^4.2.0",
+  },
+  "description": "demo",
+  "main": "app.js",
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^1.21.5"
+  },
+  "author": "",
+  "license": "ISC"
+}

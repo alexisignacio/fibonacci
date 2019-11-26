@@ -1,0 +1,32 @@
+
+
+<input type="text" name="" ng-model="numero">
+<button ng-click="get_serie()" >serie</button>
+
+<table>
+	<tr>
+		<td>#</td>
+		<td>enesimo</td>
+	</tr>
+	<tr ng-repeat="enesimo in serie_fibonacci track by $index">
+		<td>{{$index +1 }}</td>
+		<td>{{enesimo}}</td>
+	</tr>
+	
+</table>
+
+<style>
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+</style>
